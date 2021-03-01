@@ -6,7 +6,6 @@ using System.Text;
 using RabbitMQ.Client;
 using System.Security.Cryptography;
 using RabbitMQ.Client.Events;
-using Infrastructure.Helpers;
 using Infrastructure.CSRedis;
 
 namespace TM.Infrastructure.RabbitMq {
