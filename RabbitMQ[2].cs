@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
-using TM.Infrastructure.Configs;
+using Infrastructure.Configs;
 using System.Collections.Generic;
 using System.Text;
 using RabbitMQ.Client;
 using System.Security.Cryptography;
 using RabbitMQ.Client.Events;
-using TM.Infrastructure.Helpers;
-using TM.Infrastructure.CSRedis;
+using Infrastructure.Helpers;
+using Infrastructure.CSRedis;
 
 namespace TM.Infrastructure.RabbitMq {
     class AliyunMechanismFactory : IAuthMechanismFactory {
