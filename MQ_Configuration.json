@@ -1,0 +1,9 @@
+{
+  "MQConnection": {
+    "HostName": "amqp-cn-68n1mmmjb003.mq-amqp.cn-shenzhen-429403-a.aliyuncs.com", //正式外网,开发调试用
+    "UserName": "LTAI4Fj5zXxngZCp4pyFYgST",
+    "Password": "K7wcVac5SWBHunrV48YwTnapmAApIX",
+    "VirtualHost": "tm-live",
+    "Port": 5672
+  }
+}
